@@ -1,0 +1,30 @@
+.navbar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, rgba(210, 210, 210, 0.14) 0%, rgba(217, 217, 217, 0.08) 100%);
+    backdrop-filter: blur(20px);
+    z-index: 10;
+}
+.logo 
+{
+    color: white;
+    font-family: 'Red Rose', cursive;
+}
+.navLinks 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.navLinks a
+{
+    padding: .5rem 1.25rem;
+}

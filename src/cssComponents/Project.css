@@ -1,0 +1,67 @@
+.projectContainer
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* project */
+.project 
+{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    width: 60vw;
+}
+.img 
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+.projectDetails
+{
+    text-align: center;
+    width: 100%;
+}
+.projectName
+{
+    font-size: 2.5rem;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+}
+.projectDetail
+{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.otherProjects
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OPName
+{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: .5rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.OPName:hover 
+{
+    transform: scale(1.1);
+}

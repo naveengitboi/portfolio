@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&family=Red+Rose:wght@400;500;600;700&display=swap');
+
+html 
+{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.App
+{
+  background: linear-gradient(90.96deg, #000000 0.86%, #000000 0.87%, rgba(0, 0, 0, 0.79) 97.62%);
+}
+.vector 
+{
+  position: absolute;
+    left: 20px;
+    top: 6px;
+    mix-blend-mode: normal;
+    z-index: 5;
+}
+a 
+{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight:semi-bold;
+  transition: all .25s ease-in;
+  cursor: pointer;
+}
+a:hover 
+{
+  color: rgb(255, 17, 17);
+}
+
+.page 
+{
+  height: 100vh;
+}
+
+.progressBar
+{
+    position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: rgb(255, 255, 255);
+      transform-origin: 0%;
+}
+
