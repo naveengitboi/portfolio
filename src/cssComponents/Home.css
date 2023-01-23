@@ -1,12 +1,12 @@
 .page 
 {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
     font-family: 'Red Rose', cursive;
     text-transform: uppercase;
+    margin: 0 0 5rem;
 }
 
 
@@ -32,8 +32,8 @@
     width: 100vh;
     object-fit: cover;
     transform: rotate(90deg);
-    filter: brightness(0.25);
-    mix-blend-mode:screen ;
+    filter: brightness(0.28);
+    mix-blend-mode:screen;
 }
 
 /* My edit 2 1 */

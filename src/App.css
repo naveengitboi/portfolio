@@ -40,16 +40,8 @@ a:hover
 .page 
 {
   height: 100vh;
+  margin: 5rem 0;
 }
 
-.progressBar
-{
-    position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 10px;
-      background: rgb(255, 255, 255);
-      transform-origin: 0%;
-}
+
 

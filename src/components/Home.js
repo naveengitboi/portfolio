@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 export const pageAnimation ={
     hidden:{y:100, opacity:0},
     show:{y:0, opacity:1,
-    transition: {duration: 1}}
+    transition: {duration: 1}},
 }
 export const ChildrenElements = {
     hidden: {y:100, opacity:0},
@@ -17,8 +17,6 @@ function Home(){
         variants={pageAnimation}
             initial="hidden"
             whileInView={"show"}
-            viewport= {{once:false, amount:.7}}
-            transition={{ staggerChildren: .72}}
         >
             <img  src={heroImg} alt="Profile" className="heroImg" />
             <motion.h1 variants={ChildrenElements}  className="middleHeading">

@@ -47,7 +47,6 @@ function App() {
       <Project />
       <OtherProjects />
       <Contact />
-      <motion.div style={{ scaleX }} className="progressBar"></motion.div>
     </div>
   );
 }
