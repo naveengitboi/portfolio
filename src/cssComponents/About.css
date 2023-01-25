@@ -2,7 +2,10 @@
 #aboutPage .middleHeading 
 {
     font-size: 11rem;
-
+}
+#aboutPage 
+{
+    margin: 5rem 0;
 }
 .bgImgContainers
 {

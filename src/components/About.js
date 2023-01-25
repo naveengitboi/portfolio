@@ -3,8 +3,8 @@ import '../cssComponents/About.css'
 import photographyImg from '../bgImages/photgraphy combined png.png'
 import photoshopImg from '../bgImages/ps edited all.png'
 import artworkImg from '../bgImages/arts combined edit.png'
-
 import { motion } from "framer-motion";
+import { pageAnimation } from "./Home";
 export const bigH1 = {
     hidden:{
         y:200,
@@ -14,7 +14,7 @@ export const bigH1 = {
         y:0,
         opacity:1,
         transition:{
-            duration:.5
+            duration:1
         }
     }
 }
@@ -29,7 +29,7 @@ export const smallH1Container ={
         y:0,
         opacity:1,
         transition:{
-            delay:.5,
+            delay:.25,
             staggerChildren:0.5
         }
     }
@@ -51,16 +51,17 @@ export const smallH1 = {
     }
 }
 
+
 function About(){
     return(
-        <div className="page" id="aboutPage">
+        <motion.div className="page" id="aboutPage">
             <div className="bgImgContainers">
                 <img src={photoshopImg} alt="" />
                 <img src={photographyImg} alt="" />
                 <img src={artworkImg} alt="" />
 
             </div>
-            <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} className="middleHeading">
+            <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.75}} className="middleHeading">
                 What i can do?
             </motion.h1>
             <motion.div variants={smallH1Container} initial="hidden" whileInView={"show"} 
@@ -71,7 +72,7 @@ function About(){
                 <motion.h1 variants={smallH1}>Pencil Arts</motion.h1>
                 <motion.h1 variants={smallH1}>Programming</motion.h1>
             </motion.div>
-        </div>
+        </motion.div>
     )
 }
 export default About;  

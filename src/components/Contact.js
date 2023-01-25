@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
 import '../cssComponents/Contact.css'
+import { bigH1 } from './About'
+import {motion} from 'framer-motion'
 export function Contact(){
     const [msg, setMsg] = React.useState('Send')
+    
     function btnHandler(event){
         event.preventDefault()
         setMsg(prevMsg => prevMsg = 'Sent')
@@ -13,10 +16,11 @@ export function Contact(){
         }, 2000);
         
     }
+
     return(
         <div id="contactPage">
             <div className="page">
-                <h1 className="middleHeading">Contact Me Now</h1>
+                <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"}  className="middleHeading">Contact Me Now</motion.h1>
             </div>
 
             <div className="contactForm" >
