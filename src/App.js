@@ -5,9 +5,11 @@ import About from "./components/About";
 import Project from "./components/Project";
 import { OtherProjects } from "./components/OtherProjects";
 import { Contact } from "./components/Contact";
+import Me from "./components/Me";
 import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
-
+import {Routes, Route} from 'react-router-dom'
+import Nofile from "./components/Nofile";
 function App() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -42,11 +44,15 @@ function App() {
         }}
       />
       <Navbar />
-      <Home />
-      <About />
-      <Project />
-      <OtherProjects />
-      <Contact />
+
+      <Routes>
+        <Route path="/" element={<Home/>} ></Route>
+        <Route path="me" element={<Me/>} />
+        <Route path="projects" element={<Project/>} />
+        <Route path="otherprojects" element={<OtherProjects/>} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element = {<Nofile/>} />
+      </Routes>
     </div>
   );
 }

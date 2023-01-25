@@ -19,9 +19,10 @@ html
 {
   position: absolute;
     left: 20px;
-    top: 6px;
     mix-blend-mode: normal;
     z-index: 5;
+  height: 100vh;
+  overflow: hidden;
 }
 a 
 {
@@ -40,7 +41,7 @@ a:hover
 .page 
 {
   height: 100vh;
-  margin: 5rem 0;
+  margin: 0rem 0;
 }
 
 

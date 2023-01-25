@@ -2,7 +2,7 @@ import React from "react";
 import {motion, useTransform, useViewportScroll} from 'framer-motion'
 export function OtherProjects(){
     const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.25]);
+    const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.15]);
     return(
         <>
         <motion.div className="page">

@@ -4,11 +4,12 @@ import { ProjectDetails } from "./ProjectDetailer";
 import {motion} from 'framer-motion'
 import { bigH1 } from "./About";
 import { useViewportScroll, useTransform } from "framer-motion";
+import { OtherProjects } from "./OtherProjects";
 
 
 function Project(props){
     const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2.5]);
+    const scale = useTransform(scrollYProgress, [0, 1], [0.75, 2]);
   
     return(
         <>
@@ -45,6 +46,7 @@ function Project(props){
                 />
              </div>
             
+            <OtherProjects/>
         </>
     )
 }
