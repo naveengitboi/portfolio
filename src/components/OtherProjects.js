@@ -1,5 +1,7 @@
 import React from "react";
 import {motion, useTransform, useViewportScroll} from 'framer-motion'
+import { NavLink } from "react-router-dom";
+import { Routes,Route } from "react-router-dom";
 export function OtherProjects(){
     const { scrollYProgress } = useViewportScroll()
     const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.15]);
@@ -13,6 +15,7 @@ export function OtherProjects(){
             <div className="OPName projectName">PhotoShop</div>
             <div className="OPName projectName">Art Work</div>
         </div>
+
         </>
     )
 }
