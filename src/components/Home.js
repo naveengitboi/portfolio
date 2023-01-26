@@ -30,7 +30,7 @@ function Home(){
                 Who am i?
             </motion.h1>
             <motion.div variants={smallH1Container} className="answerPassage" >
-                <motion.h1 variants={smallH1} >Iam Naveen</motion.h1>
+                <motion.h1  variants={smallH1} >Iam Naveen</motion.h1>
                 <motion.h1  variants={smallH1}> A creative web designer</motion.h1>
                 <motion.h1  variants={smallH1}>student Nit calicut</motion.h1>
             </motion.div>
@@ -38,7 +38,7 @@ function Home(){
 
         <About/>
         <Project/>
-        <OtherProjects/>
+        {/* <OtherProjects/> */}
         <Contact/>
         </>
     )

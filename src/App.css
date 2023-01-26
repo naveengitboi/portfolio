@@ -44,5 +44,21 @@ a:hover
   margin: 0rem 0;
 }
 
+.middleHeading {
+  font-size: 16rem;
+  color: #555555;
+  text-align: center;
+}
 
+.answerPassage h1 {
+  font-size: 2.5rem;
+  color: white;
+  padding: 0 3rem;
+}
 
+.paragraphElement
+{
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 3rem;
+}

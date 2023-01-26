@@ -38,7 +38,7 @@ export function ProjectDetails(props){
         <div className="project">
     
                     {/* <img src="" alt="" /> */}
-                    <div className="img"></div>
+                    <div className="img"><img src={props.img} alt="" /></div>
                     <div className="projectDetails">
                         <motion.h1 variants={projectNameVariants} initial="hidden" whileInView={"show"} className="projectName"><a href={props.link} target="_blank">{props.name}</a></motion.h1>
                         <motion.p variants={projectDetailVariant} initial="hidden" whileInView={"show"} className="projectDetail">{props.projectDetail}</motion.p>  
