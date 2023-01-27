@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 #meContent
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 3rem 0 0;
 }
 .meImage img 
 {
@@ -13,6 +15,16 @@
 .meImage img:hover 
 {
     filter: grayscale(0);
+}
+.quoteDiv
+{
+    max-width: 700px;
+    background-color: rgb(21, 21, 21);
+    margin: 2rem;
+    letter-spacing: 1.25px;
+}
+#quote {
+    font-family: 'Explora', cursive;
 }
 
 @media screen and (min-width:426px) and (max-width:769px) {

@@ -1,9 +1,9 @@
 import React from "react";
-import {motion, useTransform, useViewportScroll} from 'framer-motion'
+import {motion, useScroll, useTransform} from 'framer-motion'
 import { NavLink } from "react-router-dom";
 import { Routes,Route } from "react-router-dom";
 export function OtherProjects(){
-    const { scrollYProgress } = useViewportScroll()
+    const { scrollYProgress } = useScroll()
     const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.15]);
     return(
         <>

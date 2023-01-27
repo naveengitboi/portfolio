@@ -49,6 +49,7 @@ a:hover
   font-size: 16rem;
   color: #555555;
   text-align: center;
+  line-height: 1;
 }
 
 .answerPassage h1 {
@@ -66,8 +67,13 @@ a:hover
 
 
 @media screen and (max-width:427px) {
+  .page 
+  {
+    height: 100vh;
+  }
   .middleHeading {
       font-size: 5rem;
+      margin: 3rem 0;
     }
   
     .answerPassage h1 {
