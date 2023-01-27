@@ -11,7 +11,7 @@ import backstage from '../imagesComponent/backstage.png'
 import adobe from '../imagesComponent/adobe.png'
 function Project(props){
     const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.75, 2]);
+    const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1.15]);
   
     return(
         <>

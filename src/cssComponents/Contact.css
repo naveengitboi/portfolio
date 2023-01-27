@@ -81,4 +81,15 @@ input[type="text"]:active
     transform: translateY(5px   );
 }
 
+@media screen and (max-width:427px) {
+    input 
+    {
+        width: 200px;
+    }
+}
 
+@media screen and (min-width:426px) and (max-width:769px){
+    input{
+        width: 310px;
+    }
+}

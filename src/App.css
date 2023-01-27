@@ -20,8 +20,9 @@ html
   position: absolute;
     left: 20px;
     mix-blend-mode: normal;
-    z-index: 5;
+    z-index: 0;
   height: 100vh;
+  width: 100%;
   overflow: hidden;
 }
 a 
@@ -61,4 +62,52 @@ a:hover
   font-size: 1.5rem;
   color: white;
   padding: 0 3rem;
+}
+
+
+@media screen and (max-width:427px) {
+  .middleHeading {
+      font-size: 5rem;
+    }
+  
+    .answerPassage h1 {
+      font-size: 1.3rem;
+    }
+  
+    .paragraphElement {
+      font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:769px) {
+  .middleHeading {
+      font-size: 7rem;
+    }
+  
+    .answerPassage h1 {
+      font-size: 1.6rem;
+    }
+  
+    .paragraphElement {
+      font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:769px) and  (max-width:1025px) {
+  .middleHeading
+  {
+    font-size: 10rem;
+  }
+  .answerPassage h1{
+    font-size: 2rem;
+  }
+  .paragraphElement 
+  {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width:1026px)  and (max-width:1227px) {
+  .middleHeading{
+    font-size: 12rem;
+  }
 }

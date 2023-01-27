@@ -25,7 +25,7 @@ function Home(){
             whileInView={"show"}
             viewport ={{once: true}}
         >
-            <img  src={heroImg} alt="Profile" className="heroImg" />
+            {/* <img  src={heroImg} alt="Profile" className="heroImg" /> */}
             <motion.h1 variants={ChildrenElements}  className="middleHeading">
                 Who am i?
             </motion.h1>

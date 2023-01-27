@@ -19,7 +19,7 @@ function App() {
   });
   return (
     <div className="App">
-      <div className="vector">
+      {/* <div className="vector">
         <svg
           width="1440"
           height="1024"
@@ -34,7 +34,7 @@ function App() {
             stroke-width="1.5"
           />
         </svg>
-      </div>
+      </div> */}
       <AnimatedCursor
         color='255,255,255'
         trailingSpeed={5}

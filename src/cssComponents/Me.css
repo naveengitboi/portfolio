@@ -14,3 +14,9 @@
 {
     filter: grayscale(0);
 }
+
+@media screen and (min-width:426px) and (max-width:769px) {
+    .meImage img {
+        max-width: 400px;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About'
 import meImgage from '../meImg/profile-pic.png'
+import '../App.css'
 import '../cssComponents/Me.css'
 function Me() {
   return (
