@@ -37,3 +37,15 @@
         
     }
 }
+
+@media screen and (max-width:426px) {
+    .bgImgContainers
+    {
+        height: 75vh;
+    }
+    .bgImgContainers img 
+    {
+        height: 150px;
+        object-fit: cover;
+    }
+}

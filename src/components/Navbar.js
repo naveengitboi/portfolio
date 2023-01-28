@@ -3,8 +3,8 @@ import '../cssComponents/Navbar.css'
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 function Navbar(){
-    const [navOpen, setNavOpen] = useState(true)
-    const [sidebar, setSidebar] = useState(true)
+    const [navOpen, setNavOpen] = useState(false)
+    const [sidebar, setSidebar] = useState(false)
     function controlMenu(){
        setNavOpen(prev => !prev)
        sideBarHandler()

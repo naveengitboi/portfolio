@@ -82,6 +82,16 @@ input[type="text"]:active
 }
 
 @media screen and (max-width:427px) {
+    .contactForm{
+        padding: 0;
+    }
+    .contactForm form div 
+    {
+        margin: 1.25rem;
+    }
+    label {
+        margin: 1rem;
+    }
     input 
     {
         width: 200px;
