@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&family=Red+Rose:wght@400;500;600;700&display=swap');
 
-html 
+body 
 {
-  scroll-behavior: initial;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -65,16 +65,19 @@ a:hover
       padding: 4rem 0 0;
     }
   .middleHeading {
-      font-size: 7rem;
+      font-size: 5rem;
       margin: 3rem 0;
+      padding: 0;
     }
   
     .answerPassage h1 {
       font-size: 1.6rem;
+      padding:0 1rem;
     }
   
     .paragraphElement {
       font-size: 1.3rem;
+      margin: 1rem 0;
     }
 }
 

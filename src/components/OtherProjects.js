@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Routes,Route } from "react-router-dom";
 export function OtherProjects(){
     const { scrollYProgress } = useScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.15]);
+    const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1]);
     return(
         <>
         <motion.div className="page">
