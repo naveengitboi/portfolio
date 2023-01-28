@@ -82,6 +82,11 @@ input[type="text"]:active
 }
 
 @media screen and (max-width:427px) {
+    #contactPage {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
     .contactForm{
         padding: 0;
     }

@@ -21,10 +21,25 @@
     max-width: 700px;
     background-color: rgb(21, 21, 21);
     margin: 2rem;
+    padding: 1rem 0;
     letter-spacing: 1.25px;
 }
 #quote {
     font-family: 'Explora', cursive;
+}
+@media screen and (max-width:426px) {
+    .page{
+        height: calc(100% );
+        
+    }
+    #meContent{
+        flex-direction: column;
+        margin: 8rem 0 0;
+    }
+    .meImage img{
+        width: 100%;
+    }
+    
 }
 
 @media screen and (min-width:426px) and (max-width:769px) {

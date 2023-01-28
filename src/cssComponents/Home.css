@@ -9,9 +9,6 @@
     margin: 0 0 5rem;
 }
 
-
-
-
 .heroImg 
 {
     position: absolute;
@@ -23,14 +20,3 @@
     filter: brightness(0.28);
     mix-blend-mode:screen;
 }
-
-/* My edit 2 1 */
-
-/* position: absolute;
-width: 746px;
-height: 1026px;
-left: 694px;
-top: -2px;
-
-background: url(My edit 2.png);
-filter: blur(5px); */

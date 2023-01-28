@@ -16,7 +16,7 @@
     margin: 1rem 0;
     filter: brightness(.15);
 }
-.bgImgContainers img:nth-child(2){
+/* .bgImgContainers img:nth-child(2){
     animation: animateImg 20s linear infinite alternate;
 }
 
@@ -29,14 +29,14 @@
 }
 @keyframes animateImg {
     0%{
-        transform: translateX(-100vw);
+        transform: translateY(-80vh);
         
     }
     100%{
-        transform: translateX(100vw);
+        transform: translateY(80vh);
         
     }
-}
+} */
 
 @media screen and (max-width:426px) {
     .bgImgContainers

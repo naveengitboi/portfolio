@@ -63,7 +63,7 @@ function About(){
                     <img src={artworkImg} alt="" />
 
                 </div>
-                <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.75}} className="middleHeading">
+                <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:true,amount:0.75}} className="middleHeading">
                     What i can do?
                 </motion.h1>
                 <motion.div variants={smallH1Container} initial="hidden" whileInView={"show"} 

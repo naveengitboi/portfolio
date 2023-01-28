@@ -20,7 +20,7 @@ export function Contact(){
     return(
         <div id="contactPage">
             <div className="page">
-                <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:true}} className="middleHeading">Contact Me Now</motion.h1>
+                <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:true}} className="middleHeading">Contact Now</motion.h1>
             </div>
 
             <div className="contactForm" >

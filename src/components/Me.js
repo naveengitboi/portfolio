@@ -37,7 +37,7 @@ function Me() {
   }, []);
 
   return (
-    <>
+    <div className="mePage">
       <About />
       <div className="page " id="meContent">
         <div className="answerPassage">
@@ -57,7 +57,7 @@ function Me() {
           <img src={meImgage} alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
