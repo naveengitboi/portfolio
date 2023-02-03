@@ -68,7 +68,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     margin: .5rem;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -79,6 +78,11 @@
 .OPName:hover 
 {
     transform: scale(1.1);
+}
+
+
+.OPName:nth-child(1){
+
 }
 /* media queries */
 

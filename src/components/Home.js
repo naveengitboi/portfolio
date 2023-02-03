@@ -38,7 +38,6 @@ function Home(){
 
         <About/>
         <Project/>
-        {/* <OtherProjects/> */}
         <Contact/>
         </>
     )

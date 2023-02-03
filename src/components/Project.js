@@ -5,10 +5,10 @@ import {motion, useScroll} from 'framer-motion'
 import { bigH1 } from "./About";
 import {  useTransform } from "framer-motion";
 import { OtherProjects } from "./OtherProjects";
-import deplace from '../imagesComponent/5ede27e188219c6c4ab2af6b_man-default-p-500.jpg'
-import red from '../imagesComponent/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg'
-import backstage from '../imagesComponent/backstage.png'
-import adobe from '../imagesComponent/adobe.png'
+import deplace from '../projectsimages/5ede27e188219c6c4ab2af6b_man-default-p-500.jpg'
+import red from '../projectsimages/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg'
+import backstage from '../projectsimages/backstage.png'
+import adobe from '../projectsimages/adobe.png'
 function Project(props){
     const { scrollYProgress } = useScroll()
     const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1.15]);

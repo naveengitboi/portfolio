@@ -5,6 +5,10 @@ import About from "./components/About";
 import Project from "./components/Project";
 import { OtherProjects } from "./components/OtherProjects";
 import { Contact } from "./components/Contact";
+import OpContent  from "./components/OpContent";
+
+
+
 import Me from "./components/Me";
 import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
@@ -35,6 +39,7 @@ function App() {
         <Route path="projects" element={<Project/>} />
         <Route path="otherprojects" element={<OtherProjects/>} />
         <Route path="contact" element={<Contact />} />
+        <Route path="opcontent" element={<OpContent />} />
         <Route path="*" element = {<Nofile/>} />
       </Routes>
     </div>

@@ -52,7 +52,6 @@ export const smallH1 = {
     }
 }
 
-
 function About(){
     return(
         <>
