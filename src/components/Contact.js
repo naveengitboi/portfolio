@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import '../cssComponents/Contact.css'
 import { bigH1 } from './About'
 import {motion} from 'framer-motion'
-export function Contact(){
+function Contact(){
     const [msg, setMsg] = React.useState('Send')
     
     function btnHandler(event){
@@ -59,3 +59,5 @@ export function Contact(){
         </div>
     )
 }
+
+export default Contact

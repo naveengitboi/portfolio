@@ -4,14 +4,13 @@ import { NavLink } from "react-router-dom";
 import { Routes,Route } from "react-router-dom";
 import { ImgCompo } from "../ImgComp";
 import { useEffect } from "react";
+
+let photoRanIndex = Math.floor(Math.random()*(ImgCompo[0].length))
+let psRanIndex = Math.floor(Math.random()*(ImgCompo[1].length))
+let artRanIndex = Math.floor(Math.random()*(ImgCompo[2].length))
 export function OtherProjects(){
     const { scrollYProgress } = useScroll()
     const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1]);
-      let photoRanIndex = Math.floor(Math.random()*(ImgCompo[0].length))
-      let psRanIndex = Math.floor(Math.random()*(ImgCompo[1].length))
-      let artRanIndex = Math.floor(Math.random()*(ImgCompo[2].length))
-
-
     return(
         <>
         <motion.div className="page">
