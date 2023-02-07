@@ -7,35 +7,15 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    /* z-index: -1; */
+    z-index: -1;
 }
 .bgImgContainers img
 {
     width: 100vw;
     margin: 1rem 0;
-    filter: brightness(.15);
-}
-/* .bgImgContainers img:nth-child(2){
-    animation: animateImg 20s linear infinite alternate;
+    /* filter: brightness(.15); */
 }
 
-.bgImgContainers img:nth-child(1){
-       animation: animateImg 12s 2s linear infinite alternate;
-}
-
-.bgImgContainers img:nth-child(3) {
-    animation: animateImg 12s 5s linear infinite alternate;
-}
-@keyframes animateImg {
-    0%{
-        transform: translateY(-80vh);
-        
-    }
-    100%{
-        transform: translateY(80vh);
-        
-    }
-} */
 
 @media screen and (max-width:426px) {
     .bgImgContainers

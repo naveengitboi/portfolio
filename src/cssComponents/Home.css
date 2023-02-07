@@ -9,14 +9,8 @@
     margin: 0 0 5rem;
 }
 
-.heroImg 
-{
-    position: absolute;
-    /* top: -200px; */
-    left: 25vw;
-    width: 100%;
-    object-fit: cover;
-    transform: rotate(90deg);
-    filter: brightness(0.28);
-    mix-blend-mode:screen;
+@media screen and (max-width:427px) {
+    #homePage {
+        height: 100vh;
+    }
 }

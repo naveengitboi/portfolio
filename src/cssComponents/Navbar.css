@@ -63,7 +63,7 @@
 
 .sidebar li:hover
 {
-    background-color: black;
+    background-color: rgb(60, 60, 60);
 }
 
 @media screen and (max-width:769px){

@@ -176,7 +176,129 @@ export const ImgCompo = [
     },
     {
         image : encodeURI('photoshop/watch helios.png')
-    }]
+    }],
+    
+    [{
+        image : encodeURI('artwork/batmanart.jpg')
+    },
+    {
+        image : encodeURI('artwork/oldManArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/pregnantart.jpg')
+    },
+    {
+        image : encodeURI('artwork/skull.jpg')
+    },
+    {
+        image : encodeURI('artwork/babyCouple.jpg')
+    },
+    {
+        image : encodeURI('artwork/boyGirlEveng.jpg')
+    },
+    {
+        image : encodeURI('artwork/bulb.jpg')
+    },
+    {
+        image : encodeURI('artwork/butterfly.jpg')
+    },
+    {
+        image : encodeURI('artwork/cartoons.jpg')
+    },
+    {
+        image : encodeURI('artwork/dancingArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/death.jpg')
+    },
+    {
+        image : encodeURI('artwork/deer.jpg')
+    },
+    {
+        image : encodeURI('artwork/devil.jpg')
+    },
+    {
+        image : encodeURI('artwork/ironManHeart.jpg')
+    },
+    {
+        image : encodeURI('artwork/dog.jpg')
+    },
+    {
+        image : encodeURI('artwork/girlWindow.jpg')
+    },
+    {
+        image : encodeURI('artwork/oldWomen.jpg')
+    },
+    {
+        image : encodeURI('artwork/oldManWithDog.jpg')
+    },
+    {
+        image : encodeURI('artwork/hateness.jpg')
+    },
+    {
+        image : encodeURI('artwork/devilWithHeadphone.jpg')
+    },
+    {
+        image : encodeURI('artwork/man.jpg')
+    },
+    {
+        image : encodeURI('artwork/girlWithWings.jpg')
+    },
+    {
+        image : encodeURI('artwork/bestGhosts.jpg')
+    },
+    {
+        image : encodeURI('artwork/coupleSleep.jpg')
+    },
+    {
+        image : encodeURI('artwork/coupleRomance.jpg')
+    },
+    {
+        image : encodeURI('artwork/death.jpg')
+    },
+       {
+        image : encodeURI('artwork/spyGob.jpg')
+    },
+    {
+        image : encodeURI('artwork/Vendor.jpg')
+    },
+    {
+        image : encodeURI('artwork/venomArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/Zombieart.jpg')
+    },
+    {
+        image : encodeURI('artwork/ripArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/fArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/flower.jpg')
+    },
+
+    {
+        image : encodeURI('artwork/hairArt.jpg')
+    },
+    {
+        image : encodeURI('artwork/hands.jpg')
+    },
+    {
+        image : encodeURI('artwork/hugart.jpg')
+    },
+    {
+        image : encodeURI('artwork/kissart.jpg')
+    },
+    {
+        image : encodeURI('artwork/lizard.jpg')
+    },
+    {
+        image : encodeURI('artwork/man.jpg')
+    },
+    {
+        image : encodeURI('artwork/nobithaSuzuka.jpg')
+    },]
 ]
 
 //photography, photoshop, arts

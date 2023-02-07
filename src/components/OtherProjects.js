@@ -9,6 +9,7 @@ export function OtherProjects(){
     const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1]);
       let photoRanIndex = Math.floor(Math.random()*(ImgCompo[0].length))
       let psRanIndex = Math.floor(Math.random()*(ImgCompo[1].length))
+      let artRanIndex = Math.floor(Math.random()*(ImgCompo[2].length))
 
 
     return(
@@ -28,7 +29,7 @@ export function OtherProjects(){
                 <NavLink to='/opcontent' >Photoshop</NavLink>
             </div>
             <div className="OPName" 
-            style={{backgroundImage:`url(${ImgCompo[0][3]['image']})`, backgroundPosition:'center', 
+            style={{backgroundImage:`url(${ImgCompo[2][artRanIndex]['image']})`, backgroundPosition:'center', 
              backgroundSize:'cover'}}
             >
                 <NavLink to='/opcontent' >Art Work</NavLink>

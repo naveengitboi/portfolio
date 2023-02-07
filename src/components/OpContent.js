@@ -2,7 +2,7 @@ import React from "react";
 import { ImgCompo } from "../ImgComp";
 function OpContent(){
     return(
-        <img src={ImgCompo[1][0]['image']} alt="" />
+        <img src={ImgCompo[2][0]['image']} alt="" />
     )
 }
 
