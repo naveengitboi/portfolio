@@ -1,26 +1,19 @@
+import {React, lazy, Suspense} from 'react'
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Project from "./components/Project";
-import { OtherProjects } from "./components/OtherProjects";
-import { Contact } from "./components/Contact";
-import OpContent  from "./components/OpContent";
-
-
-
-import Me from "./components/Me";
-import { motion, useScroll, useSpring } from "framer-motion";
+// import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
 import {Routes, Route} from 'react-router-dom'
-import Nofile from "./components/Nofile";
+
+
+const LazyHome = lazy(()=> import('./components/Home'))
+const Me = lazy(()=> import('./components/Me'))
+const Project = lazy(()=> import('./components/Project'))
+const OtherProjects = lazy(()=> import('./components/OtherProjects'))
+const Contact = lazy(()=>import('./components/Contact'))
+const OpContent = lazy(()=> import('./components/OpContent'))
+const NoFile = lazy(()=> import('./components/Nofile'))
 function App() {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  });
   return (
     <div className="App">
       <AnimatedCursor
@@ -34,13 +27,47 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home/>} ></Route>
-        <Route path="me" element={<Me/>} />
-        <Route path="projects" element={<Project/>} />
-        <Route path="otherprojects" element={<OtherProjects/>} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="opcontent" element={<OpContent />} />
-        <Route path="*" element = {<Nofile/>} />
+       
+          <Route path="/" element={ 
+            <Suspense fallback='Loading....'>
+              <LazyHome/>
+            </Suspense>} />
+
+        <Route path="me" element={
+          <Suspense fallback='Loading....'>
+              <Me/>
+          </Suspense>} />
+
+        <Route path="projects" element={
+          <Suspense fallback='Loading....'>
+              <Project/>
+          </Suspense>
+        } />
+
+        <Route path="otherprojects" element={
+          <Suspense fallback='Loading....'>
+              <OtherProjects/>
+          </Suspense>
+        } />
+
+        <Route path="contact" element={
+          <Suspense fallback='Loading....'>
+              <Contact/>
+          </Suspense>
+        } />
+
+        <Route path="opcontent" element={
+          <Suspense fallback='Loading....'>
+              <OpContent/>
+          </Suspense>
+        } />
+
+        <Route path="*" element = {
+          <Suspense fallback='Loading....'>
+              <NoFile/>
+          </Suspense>
+        } />
+
       </Routes>
     </div>
   );

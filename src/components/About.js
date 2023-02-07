@@ -5,7 +5,8 @@ import photoshopImg from '../bgImages/ps edited all.png'
 import artworkImg from '../bgImages/arts combined edit.png'
 import { motion } from "framer-motion";
 import { pageAnimation } from "./Home";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 export const bigH1 = {
     hidden:{
         y:200,
@@ -57,9 +58,9 @@ function About(){
         <>
             <motion.div className="page" id="aboutPage">
                 <div className="bgImgContainers">
-                    <img src={photoshopImg} alt="" />
-                    <img src={photographyImg} alt="" />
-                    <img src={artworkImg} alt="" />
+                    <LazyLoadImage effect="blur" src={photoshopImg}/>
+                    <LazyLoadImage src={photographyImg}/>
+                    <LazyLoadImage src={artworkImg}/>
 
                 </div>
                 <motion.h1 variants={bigH1} initial="hidden" whileInView={"show"} viewport={{once:true,amount:0.75}} className="middleHeading">

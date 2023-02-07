@@ -4,6 +4,9 @@ import meImgage from "../meImg/profile-pic.png";
 import "../App.css";
 import "../cssComponents/Me.css";
 import { useState, useEffect } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function Me() {
   const [quote, setQuote] = useState("Is that a DREAM or WISH?");
   const [name, setName] = useState("J Naveen");
@@ -54,7 +57,7 @@ function Me() {
           </div>
         </div>
         <div className="meImage">
-          <img src={meImgage} alt="" />
+          <LazyLoadImage effect="blur" src={meImgage} alt="" />
         </div>
       </div>
     </div>

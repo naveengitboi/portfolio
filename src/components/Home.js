@@ -1,12 +1,11 @@
 import React from "react";
 import '../cssComponents/Home.css'
-import heroImg from '../bgImages/My edit 2.png'
 import {motion} from 'framer-motion'
 import About from "./About";
 import { smallH1, smallH1Container } from "./About";
 import Project from "./Project";
-import { OtherProjects } from "./OtherProjects";
 import { Contact } from "./Contact";
+
 export const pageAnimation ={
     hidden:{ opacity:0},
     show:{ opacity:1,
@@ -25,7 +24,6 @@ function Home(){
             whileInView={"show"}
             viewport ={{once: true}}
         >
-            {/* <img  src={heroImg} alt="Profile" className="heroImg" /> */}
             <motion.h1 variants={ChildrenElements}  className="middleHeading">
                 Who am i?
             </motion.h1>

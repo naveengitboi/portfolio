@@ -73,7 +73,7 @@ export const ImgCompo = [
         image : './photography/kidsLaugh.jpg'
     },
     {
-        image : './photography/litle3Edit.png'
+        image : encodeURI('./photography/litle3Edit.png')
     },
     {
         image : './photography/microPlant.jpg'
@@ -124,7 +124,7 @@ export const ImgCompo = [
         image : './photography/waterSprinkle2.jpg'
     },
     {
-        image : './photography/wheelShow'
+        image : './photography/wheelShow.jpg'
     }],
 
     [{
