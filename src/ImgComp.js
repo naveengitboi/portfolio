@@ -128,54 +128,54 @@ export const ImgCompo = [
     }],
 
     [{
-        image: encodeURI('photoshop/batman edit.png')
+        image: encodeURI('photoshop/batman edit.jpg')
     },
     {
-        image : encodeURI('photoshop/brockLesner.png')
+        image : encodeURI('photoshop/brockLesner.jpg')
     },
     {
-        image : encodeURI('photoshop/broken poster.png')
+        image : encodeURI('photoshop/broken poster.jpg')
     },
     {
-        image : encodeURI('photoshop/hulk.png')
+        image : encodeURI('photoshop/hulk.jpg')
     },
     {
-        image : encodeURI('photoshop/iit.png')
+        image : encodeURI('photoshop/iit.jpg')
     },
     {
-        image : encodeURI('photoshop/glass jar and flies.png')
+        image : encodeURI('photoshop/glass jar and flies.jpg')
     },
     {
-        image : encodeURI('photoshop/love-edit.png')
+        image : encodeURI('photoshop/love-edit.jpg')
     },
     {
-        image : encodeURI('photoshop/light and chair.png')
+        image : encodeURI('photoshop/light and chair.jpg')
     },
     {
-        image : encodeURI('photoshop/NIKE SHOES PHOTOSHOP.png')
+        image : encodeURI('photoshop/NIKE SHOES PHOTOSHOP.jpg')
     },{
-        image : encodeURI('photoshop/My edit 2.png')
+        image : encodeURI('photoshop/My edit 2.jpg')
     },
     {
-        image : encodeURI( 'photoshop/new year poster.png')
+        image : encodeURI( 'photoshop/new year poster.jpg')
     },
     {
-        image : encodeURI('photoshop/shoe sports.png')
+        image : encodeURI('photoshop/shoe sports.jpg')
     },
     {
-        image :encodeURI('photoshop/cyber type.png')
+        image :encodeURI('photoshop/cyber type.jpg')
     },
     {
         image : encodeURI('photoshop/girl-edit.jpg')
     },
     {
-        image : encodeURI('photoshop/SURYA VIKRAM.png')
+        image : encodeURI('photoshop/SURYA VIKRAM.jpg')
     },
     {
-        image : encodeURI('photoshop/The Exorcist Naveen.png')
+        image : encodeURI('photoshop/The Exorcist Naveen.jpg')
     },
     {
-        image : encodeURI('photoshop/watch helios.png')
+        image : encodeURI('photoshop/watch helios.jpg')
     }],
     
     [{
