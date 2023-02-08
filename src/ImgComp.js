@@ -1,7 +1,7 @@
 
 export const ImgCompo = [
     [{
-        image : './photography/bestPhoto.png'
+        image : './photography/bestPhoto.jpg'
     },
     {
         image : './photography/boyLaughEdit.jpg'
@@ -44,10 +44,10 @@ export const ImgCompo = [
         image : './photography/flowePic2.jpg'
     },
     {
-        image : './photography/friendshipEdit.png'
+        image : './photography/friendshipEdit.jpg'
     },
     {
-        image : './photography/funnyFightPic.png'
+        image : './photography/funnyFightPic.jpg'
     },
     {
         image : './photography/funnyKidsPic.jpg'
@@ -73,7 +73,7 @@ export const ImgCompo = [
         image : './photography/kidsLaugh.jpg'
     },
     {
-        image : encodeURI('./photography/litle3Edit.png')
+        image : encodeURI('./photography/little3Edit.jpg')
     },
     {
         image : './photography/microPlant.jpg'
@@ -91,13 +91,13 @@ export const ImgCompo = [
         image : './photography/skyandLeaves.jpg'
     },
     {
-        image : './photography/skipic.jpg'
+        image : './photography/skypic.jpg'
     },
     {
         image : './photography/smallCoconut.jpg'
     },
     {
-        image : './photography/sypderWeb.jpg'
+        image : './photography/spyderWeb.jpg'
     },
     {
         image : './photography/standingPic.png'
@@ -106,7 +106,7 @@ export const ImgCompo = [
         image : './photography/studentPic.jpg'
     },
     {
-        image : './photography/threeMokiesPic.jpg'
+        image : './photography/threeMonkiesPic.jpg'
     },
     {
         image : './photography/todayChildren.jpg'
@@ -300,5 +300,6 @@ export const ImgCompo = [
         image : encodeURI('artwork/nobithaSuzuka.jpg')
     },]
 ]
+
 
 //photography, photoshop, arts

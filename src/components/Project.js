@@ -2,7 +2,7 @@ import React from "react";
 import '../cssComponents/Project.css'
 import { ProjectDetails } from "./ProjectDetailer";
 import {motion, useScroll} from 'framer-motion'
-import { bigH1 } from "./About";
+// import { bigH1 } from "./About";
 import {  useTransform } from "framer-motion";
 import { OtherProjects } from "./OtherProjects";
 import deplace from '../projectsimages/5ede27e188219c6c4ab2af6b_man-default-p-500.jpg'

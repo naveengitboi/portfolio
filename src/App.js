@@ -4,15 +4,16 @@ import Navbar from "./components/Navbar";
 // import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
 import {Routes, Route} from 'react-router-dom'
-
+import OpContent from './components/OpContent';
 
 const LazyHome = lazy(()=> import('./components/Home'))
 const Me = lazy(()=> import('./components/Me'))
 const Project = lazy(()=> import('./components/Project'))
 const OtherProjects = lazy(()=> import('./components/OtherProjects'))
 const Contact = lazy(()=>import('./components/Contact'))
-const OpContent = lazy(()=> import('./components/OpContent'))
+// const OpContent = lazy(()=> import('./components/OpContent'))
 const NoFile = lazy(()=> import('./components/Nofile'))
+const Photography = lazy(()=>import('./components/Photography'))
 function App() {
   return (
     <div className="App">
@@ -56,17 +57,20 @@ function App() {
           </Suspense>
         } />
 
-        <Route path="opcontent" element={
-          <Suspense fallback='Loading....'>
-              <OpContent/>
-          </Suspense>
-        } />
+        <Route path="opcontent" element={<OpContent/>} >
+          <Route path='photography' element={
+            <Suspense fallback='loading'>
+              <Photography/>
+            </Suspense>
+          }/>
+        </Route>
 
         <Route path="*" element = {
           <Suspense fallback='Loading....'>
               <NoFile/>
           </Suspense>
         } />
+
 
       </Routes>
     </div>
