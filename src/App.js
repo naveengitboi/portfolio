@@ -5,7 +5,10 @@ import Navbar from "./components/Navbar";
 import AnimatedCursor from "react-animated-cursor";
 import {Routes, Route} from 'react-router-dom'
 import OpContent from './components/OpContent';
-
+import Photography from './components/Photography';
+import Photoshop from './components/Photoshop';
+import { ImgCompo } from './ImgComp';
+import Artwork from './components/Artwork';
 const LazyHome = lazy(()=> import('./components/Home'))
 const Me = lazy(()=> import('./components/Me'))
 const Project = lazy(()=> import('./components/Project'))
@@ -14,6 +17,7 @@ const Contact = lazy(()=>import('./components/Contact'))
 // const OpContent = lazy(()=> import('./components/OpContent'))
 const NoFile = lazy(()=> import('./components/Nofile'))
 const Photography = lazy(()=>import('./components/Photography'))
+const Photoshop = lazy(()=> import('./components/Photoshop'))
 function App() {
   return (
     <div className="App">
@@ -58,11 +62,10 @@ function App() {
         } />
 
         <Route path="opcontent" element={<OpContent/>} >
-          <Route path='photography' element={
-            <Suspense fallback='loading'>
-              <Photography/>
-            </Suspense>
-          }/>
+          <Route index element={<Photography/>} />
+          <Route path='photography' element={<Photography/>}/>
+          <Route path='photoshop' element={<Photoshop/>} />
+          <Route path='artwork' element={<Artwork/>} />
         </Route>
 
         <Route path="*" element = {

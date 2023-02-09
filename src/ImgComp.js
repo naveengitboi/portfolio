@@ -194,7 +194,7 @@ export const ImgCompo = [
         image : encodeURI('artwork/babyCouple.jpg')
     },
     {
-        image : encodeURI('artwork/boyGirlEveng.jpg')
+        image : encodeURI('artwork/boyGirlEvng.jpg')
     },
     {
         image : encodeURI('artwork/bulb.jpg')
@@ -227,7 +227,7 @@ export const ImgCompo = [
         image : encodeURI('artwork/girlWindow.jpg')
     },
     {
-        image : encodeURI('artwork/oldWomen.jpg')
+        image : encodeURI('artwork/oldWoman.jpg')
     },
     {
         image : encodeURI('artwork/oldManWithDog.jpg')
@@ -236,7 +236,7 @@ export const ImgCompo = [
         image : encodeURI('artwork/hateness.jpg')
     },
     {
-        image : encodeURI('artwork/devilWithHeadphone.jpg')
+        image : encodeURI('artwork/devilHeadphones.jpg')
     },
     {
         image : encodeURI('artwork/man.jpg')
@@ -292,9 +292,6 @@ export const ImgCompo = [
     },
     {
         image : encodeURI('artwork/lizard.jpg')
-    },
-    {
-        image : encodeURI('artwork/man.jpg')
     },
     {
         image : encodeURI('artwork/nobithaSuzuka.jpg')
