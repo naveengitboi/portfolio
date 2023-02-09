@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 // import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
 import {Routes, Route} from 'react-router-dom'
-import OpContent from './components/OpContent';
-import Photography from './components/Photography';
-import Photoshop from './components/Photoshop';
+// import OpContent from './components/OpContent';
+// import Photography from './components/Photography';
+// import Photoshop from './components/Photoshop';
 import { ImgCompo } from './ImgComp';
 import Artwork from './components/Artwork';
 const LazyHome = lazy(()=> import('./components/Home'))
@@ -18,6 +18,7 @@ const Contact = lazy(()=>import('./components/Contact'))
 const NoFile = lazy(()=> import('./components/Nofile'))
 const Photography = lazy(()=>import('./components/Photography'))
 const Photoshop = lazy(()=> import('./components/Photoshop'))
+const OpContent = lazy(()=> import('./components/OpContent'))
 function App() {
   return (
     <div className="App">
@@ -61,11 +62,29 @@ function App() {
           </Suspense>
         } />
 
-        <Route path="opcontent" element={<OpContent/>} >
-          <Route index element={<Photography/>} />
-          <Route path='photography' element={<Photography/>}/>
-          <Route path='photoshop' element={<Photoshop/>} />
-          <Route path='artwork' element={<Artwork/>} />
+        <Route path="opcontent" element={
+          <Suspense fallback='loading....'>
+            <OpContent/>
+          </Suspense>
+        } >
+          <Route index element={ 
+          <Suspense fallback='loading....'>
+            <Photography/>
+          </Suspense>} />
+          <Route path='photography' element={ 
+          <Suspense fallback='loading....'>
+            <Photography/>
+          </Suspense>}/>
+          <Route path='photoshop' element={
+             <Suspense fallback='loading....'>
+            <Photoshop/>
+          </Suspense>
+          } />
+          <Route path='artwork' element={
+             <Suspense fallback='loading....'>
+            <Artwork/>
+          </Suspense>
+          } />
         </Route>
 
         <Route path="*" element = {
