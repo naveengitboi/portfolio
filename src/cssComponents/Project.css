@@ -103,7 +103,6 @@
     width: 400px;
     height: 470px;
     overflow: hidden;
-
 }
 .image img 
 {
@@ -112,8 +111,39 @@
     object-fit: cover;
 
 }
-
-
+.showImage{
+    width: 90vw;
+    height: 85vh;
+    position: absolute;
+    top: 7rem;
+    background-color: rgba(0, 0, 0, 0.756);
+}
+.showImage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.closeBtn
+{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeBtn div {
+    width: 3px;
+    height: 30px;
+    background-color: white;
+}
+.closeBtn .leftTilt {
+    transform: rotate(-30deg);
+}
+.closeBtn .leftTilt .rightTilt {
+    transform: rotate(60deg);
+}
 
 
 
