@@ -1,31 +1,28 @@
 import {React, lazy, Suspense} from 'react'
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedCursor from "react-animated-cursor";
 import {Routes, Route} from 'react-router-dom'
-// import OpContent from './components/OpContent';
-// import Photography from './components/Photography';
-// import Photoshop from './components/Photoshop';
-import { ImgCompo } from './ImgComp';
+import Loader from './components/Loader';
 import Artwork from './components/Artwork';
 const LazyHome = lazy(()=> import('./components/Home'))
 const Me = lazy(()=> import('./components/Me'))
 const Project = lazy(()=> import('./components/Project'))
 const OtherProjects = lazy(()=> import('./components/OtherProjects'))
 const Contact = lazy(()=>import('./components/Contact'))
-// const OpContent = lazy(()=> import('./components/OpContent'))
 const NoFile = lazy(()=> import('./components/Nofile'))
 const Photography = lazy(()=>import('./components/Photography'))
 const Photoshop = lazy(()=> import('./components/Photoshop'))
-const OpContent = lazy(()=> import('./components/OpContent'))
+const OpContent = lazy(()=> import('./components/OpContent')) 
+
+
 function App() {
   return (
     <div className="App">
       <AnimatedCursor
         color='255,255,255'
-        trailingSpeed={5}
-        innerSize = {15}
+        trailingSpeed={1}
+        innerSize = {30}
         innerStyle = {{
           backgroundColor: 'white'
         }}
@@ -51,7 +48,7 @@ function App() {
         } />
 
         <Route path="otherprojects" element={
-          <Suspense fallback='Loading....'>
+          <Suspense fallback={<Loader/>}>
               <OtherProjects/>
           </Suspense>
         } />

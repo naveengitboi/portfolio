@@ -315,84 +315,84 @@ export const ImgCompo = [
     },
     {
         image : encodeURI('artwork/devilHeadphones.jpg')
-        ,id:10
-    },
-    {
-        image : encodeURI('artwork/man.jpg')
-        ,id:11
-    },
-    {
-        image : encodeURI('artwork/girlWithWings.jpg')
-        ,id:12
-    },
-    {
-        image : encodeURI('artwork/bestGhosts.jpg')
-        ,id:13
-    },
-    {
-        image : encodeURI('artwork/coupleSleep.jpg')
-        ,id:14
-    },
-    {
-        image : encodeURI('artwork/coupleRomance.jpg')
-        ,id:15
-    },
-    {
-        image : encodeURI('artwork/death.jpg')
-        ,id:16
-    },
-       {
-        image : encodeURI('artwork/spyGob.jpg')
-        ,id:17
-    },
-    {
-        image : encodeURI('artwork/Vendor.jpg')
-        ,id:18
-    },
-    {
-        image : encodeURI('artwork/venomArt.jpg')
-        ,id:19
-    },
-    {
-        image : encodeURI('artwork/Zombieart.jpg')
         ,id:20
     },
     {
-        image : encodeURI('artwork/ripArt.jpg')
+        image : encodeURI('artwork/man.jpg')
         ,id:21
     },
     {
-        image : encodeURI('artwork/fArt.jpg')
+        image : encodeURI('artwork/girlWithWings.jpg')
         ,id:22
     },
     {
-        image : encodeURI('artwork/flower.jpg')
+        image : encodeURI('artwork/bestGhosts.jpg')
         ,id:23
+    },
+    {
+        image : encodeURI('artwork/coupleSleep.jpg')
+        ,id:24
+    },
+    {
+        image : encodeURI('artwork/coupleRomance.jpg')
+        ,id:25
+    },
+    {
+        image : encodeURI('artwork/death.jpg')
+        ,id:26
+    },
+       {
+        image : encodeURI('artwork/spyGob.jpg')
+        ,id:27
+    },
+    {
+        image : encodeURI('artwork/Vendor.jpg')
+        ,id:28
+    },
+    {
+        image : encodeURI('artwork/venomArt.jpg')
+        ,id:29
+    },
+    {
+        image : encodeURI('artwork/Zombieart.jpg')
+        ,id:30
+    },
+    {
+        image : encodeURI('artwork/ripArt.jpg')
+        ,id:31
+    },
+    {
+        image : encodeURI('artwork/fArt.jpg')
+        ,id:32
+    },
+    {
+        image : encodeURI('artwork/flower.jpg')
+        ,id:33
     },
 
     {
         image : encodeURI('artwork/hairArt.jpg')
-        ,id:1
+        ,id:34
     },
     {
         image : encodeURI('artwork/hands.jpg')
-        ,id:1
+        ,id:35
     },
     {
         image : encodeURI('artwork/hugart.jpg')
-        ,id:1
+        ,id:36
     },
     {
         image : encodeURI('artwork/kissart.jpg')
-        ,id:1
+        ,id:37
     },
     {
         image : encodeURI('artwork/lizard.jpg')
-        ,id:1
+        ,id:38
     },
     {
         image : encodeURI('artwork/nobithaSuzuka.jpg')
-        ,id:1
+        ,id:39
     },]
 ]
 
