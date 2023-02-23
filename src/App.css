@@ -43,6 +43,7 @@ a:hover
   color: #555555;
   text-align: center;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .answerPassage h1 {

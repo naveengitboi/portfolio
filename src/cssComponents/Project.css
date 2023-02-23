@@ -83,7 +83,7 @@
 .imageContainers {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  padding: 2rem 4rem;
+  padding: 2rem 0rem 0 1rem;
   gap: 1rem;
 }
 .image {
@@ -97,15 +97,16 @@
   object-fit: cover;
 }
 .showImage {
-  width: 90vw;
-  height: 85vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  top: 5rem;
-  left: 4rem;
-  background:linear-gradient(rgba(255, 255, 255, 0.254), rgba(255, 255, 255, 0.199));
+  background-color: #323232;
   display: flex;
-    backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(25);
+  justify-content: center;
+  align-items: center;
 }
 .showImage img {
   width: 100%;
@@ -115,11 +116,13 @@
 .closeBtn {
   width: 40px;
   height: 40px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(74, 54, 54);
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: absolute;
+  left: 4rem;
+  top: 4rem;
 }
 .closeBtn div {
   width: 3px;
@@ -161,35 +164,46 @@
     font-size: 1rem;
   }
   .opLinkManager a {
-      padding: 1.5rem .85rem;
-      text-transform: uppercase;
+    padding: 1.5rem 0.85rem;
+    text-transform: uppercase;
   }
-        .image {
-            width: 350px;
-            height: 400px;
-            overflow: hidden;
-        }
-    
-        .imageContainers {
-            grid-template-columns: repeat(1, 1fr);
-            padding: 2rem;
-            gap: 1rem;
-        }
-    
-        .closeBtn div {
-            height: 15px;
-        }
-    
-        .showImage {
-            left: 2.15rem;
-            border: 2px solid rgba(0, 0, 0, 0.213);
-            flex-direction: column-reverse;
-        }
-        .showImage img {
-            height: 95%;
-        }
-}
+  .image {
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+  }
 
+  .imageContainers {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .closeBtn div {
+    height: 15px;
+  }
+
+  .showImage {
+    left: 2.15rem;
+    border: 2px solid rgba(0, 0, 0, 0.213);
+    flex-direction: column-reverse;
+  }
+  .showImage img {
+    height: 95%;
+  }
+}
+@media screen and (max-width: 426px){
+    .showImage {
+        left: 0;
+        top: 0rem;
+        border: 2px solid rgba(0, 0, 0, 0.213);
+      }
+      .closeBtn {
+        left:.5rem;
+        top:1rem;
+
+      }
+}
 @media screen and (min-width: 426px) and (max-width: 769px) {
   .img {
     width: 250px;
@@ -207,24 +221,22 @@
     font-size: 1rem;
   }
   .image {
-      width: 350px;
-      height: 400px;
-      overflow: hidden;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
   }
-        .imageContainers {
-            grid-template-columns: repeat(2, auto);
-            padding: 2rem;
-            gap: 1rem;
-        }
-    
-        .closeBtn div {
-            height: 15px;
-        }
-    
-        .showImage {
-            left: 2.15rem;
-            border: 2px solid rgba(0, 0, 0, 0.213);
-        }
+  .imageContainers {
+    grid-template-columns: repeat(2, auto);
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .closeBtn {
+    left: .5rem;
+  }
+  .closeBtn div {
+    height: 15px;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {

@@ -23,11 +23,10 @@ const Photoshop = ()=> {
             {
                 selectedId && 
                 <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration: 0.25}} exit={{scale:0}} className="showImage">
-                <img src= {( '/' + ImgCompo[1][selectedId-1].image)}  alt="image" />
                 <div className="closeBtn" onClick={()=> setSelectedId(null)}>
                     <div className="leftTilt"> <div className="rightTilt"></div></div>
-                   
                 </div>
+                <img src= {( '/' + ImgCompo[1][selectedId-1].image)}  alt="image" />
             </motion.div>
             }
             </AnimatePresence>

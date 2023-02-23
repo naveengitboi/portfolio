@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const projectNameVariants = {
     hidden:{
-        x:100,
+        x:50,
         opacity:0
     },
     show:{
@@ -19,7 +19,7 @@ const projectNameVariants = {
 
 const projectDetailVariant = {
     hidden:{
-        x:100,
+        x:50,
         opacity:0
     },
     show:{
