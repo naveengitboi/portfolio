@@ -30,19 +30,18 @@ function App() {
       <Navbar />
 
       <Routes>
-       
           <Route path="/" element={ 
-            <Suspense fallback='Loading....'>
+            <Suspense fallback={<Loader/>}>
               <LazyHome/>
             </Suspense>} />
 
         <Route path="me" element={
-          <Suspense fallback='Loading....'>
+          <Suspense fallback={<Loader/>}>
               <Me/>
           </Suspense>} />
 
         <Route path="projects" element={
-          <Suspense fallback='Loading....'>
+          <Suspense fallback={<Loader/>}>
               <Project/>
           </Suspense>
         } />
@@ -54,38 +53,38 @@ function App() {
         } />
 
         <Route path="contact" element={
-          <Suspense fallback='Loading....'>
+          <Suspense fallback={<Loader/>}>
               <Contact/>
           </Suspense>
         } />
 
         <Route path="opcontent" element={
-          <Suspense fallback='loading....'>
+          <Suspense fallback={<Loader/>}>
             <OpContent/>
           </Suspense>
         } >
           <Route index element={ 
-          <Suspense fallback='loading....'>
+          <Suspense fallback={<Loader/>}>
             <Photography/>
           </Suspense>} />
           <Route path='photography' element={ 
-          <Suspense fallback='loading....'>
+          <Suspense fallback={<Loader/>}>
             <Photography/>
           </Suspense>}/>
           <Route path='photoshop' element={
-             <Suspense fallback='loading....'>
+             <Suspense fallback={<Loader/>}>
             <Photoshop/>
           </Suspense>
           } />
           <Route path='artwork' element={
-             <Suspense fallback='loading....'>
+             <Suspense fallback={<Loader/>}>
             <Artwork/>
           </Suspense>
           } />
         </Route>
 
         <Route path="*" element = {
-          <Suspense fallback='Loading....'>
+          <Suspense fallback={<Loader/>}>
               <NoFile/>
           </Suspense>
         } />

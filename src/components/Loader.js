@@ -1,10 +1,18 @@
 import React from "react";
-
+import '../cssComponents/Loader.css'
 const Loader = () => {
     return(
+        <>
+        <div className="loaderPage">
         <div className="loader">
-            <h1 className="middleHeading">Loading</h1>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+        </div>
+        </>
     )
 }
 

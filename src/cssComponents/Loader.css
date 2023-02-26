@@ -1,0 +1,95 @@
+
+.loaderPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader 
+{
+    display: flex;
+    border-top: 10px solid rgb(177, 177, 177);
+    position: relative;
+}
+.loader::before{
+    content: '..Hi Bruh..';
+    position: absolute;
+    top: -30px;
+    color: wheat;
+    font-family: poppins;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.loader span 
+{
+    display:block;
+    width: 3px;
+    height: 100px;
+    background-color: rgb(182, 182, 182);
+    position: relative;
+    margin:0 13.5px 1rem;
+    transform-origin: top;
+}
+.loader span::before
+{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: rgb(205, 205, 205);
+    position: absolute;
+    bottom: 0;
+    right: -12px;
+    border-radius: 50%;
+    
+}
+.loader span:nth-child(1){
+    /* transform: rotate(-60deg); */
+    animation: animate1 1s linear infinite;
+    /* animation-delay: 1s; */
+}
+.loader span:last-child {
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-60deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
