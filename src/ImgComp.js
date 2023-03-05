@@ -235,7 +235,33 @@ export const ImgCompo = [
     {
         image : encodeURI('photoshop/watch helios.jpg')
         ,id:17
-    }],
+    },
+    {
+        image : encodeURI('photoshop/ironAntMan.jpg')
+        ,id:18
+    },
+    {
+        image : encodeURI('photoshop/tshirt designing.jpg')
+        ,id:19
+    },
+    {
+        image : encodeURI('photoshop/salaar edit.jpg')
+        ,id:20
+    },
+    {
+        image : encodeURI('photoshop/super man 2 edit.jpg')
+        ,id:21
+    },
+    {
+        image : encodeURI('photoshop/super man spookey edit.jpg')
+        ,id:22
+    },
+    {
+        image : encodeURI('photoshop/cricters with smooth texture.jpg')
+        ,id:23
+    },
+
+],
     
     [{
         image : encodeURI('artwork/batmanart.jpg')
@@ -393,7 +419,21 @@ export const ImgCompo = [
     {
         image : encodeURI('artwork/nobithaSuzuka.jpg')
         ,id:39
-    },]
+    },
+      {
+        image : encodeURI('artwork/hanuman.jpg')
+        ,id:40
+    },
+      {
+        image : encodeURI('artwork/scary.jpg')
+        ,id:41
+    },
+      {
+        image : encodeURI('artwork/solo.jpg')
+        ,id:42
+    },
+
+]
 ]
 
 
