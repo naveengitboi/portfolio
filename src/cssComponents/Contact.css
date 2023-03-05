@@ -1,110 +1,117 @@
-#contactPage
-{
-    position: relative;
+#contactPage {
+  position: relative;
+  height: 105vh;
 }
 .page {
-    margin: 0;
+  margin: 0;
 }
-.contactForm
-{
-    position: absolute;
-    top:18.5%;
-    left: 5%;
-    background: linear-gradient(180deg, rgba(210, 210, 210, 0.14) 0%, rgba(217, 217, 217, 0.08) 100%);
-    backdrop-filter: blur(10px);
-    padding:2rem 4rem;
-    font-family: "poppins", sans-serif;
-    text-align: center;
-    box-shadow: 0 0 20px rgb(0, 0, 0);
+.contactForm {
+  position: absolute;
+  top: 18.5%;
+  left: 5%;
+  background: linear-gradient(
+    180deg,
+    rgba(210, 210, 210, 0.14) 0%,
+    rgba(217, 217, 217, 0.08) 100%
+  );
+  backdrop-filter: blur(10px);
+  padding: 2rem 4rem;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-.contactForm form div 
-{
+.contactForm form div {
+  margin: 1.25rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+label {
+  font-size: 1.25rem;
+  margin: 0.85rem 3.5rem;
+  color: white;
+}
+input, .inputArea{
+  padding: 1rem 0.5rem;
+  width: 500px;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.359);
+  border-left: 1px solid rgba(139, 139, 139, 0.19);
+  color: white;
+  outline: none;
+}
+input[type="text"]:active {
+  border: none;
+  background-color: transparent;
+}
+
+.sendBtn {
+  padding: 0.85rem 2.5rem;
+  font-size: 1.15rem;
+  background: linear-gradient(
+    180deg,
+    rgba(210, 210, 210, 0.14) 0%,
+    rgba(217, 217, 217, 0.08) 100%
+  );
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.359);
+  margin: 1rem 0;
+  cursor: pointer;
+  color: white;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.85rem 0;
+}
+
+.socialLinks div {
+  margin: 0 1.25rem;
+}
+
+.socialLinks a {
+  font-size: 40px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 427px) {
+  #contactPage {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contactForm {
+    padding: 0;
+  }
+  .contactForm form div {
     margin: 1.25rem;
-}
-label 
-{
-    font-size: 1.25rem;
-    margin:.85rem 3.5rem;
-    color: white;
-}
-input
-{
-    padding:1rem .5rem;
-    width: 500px;
-    font-size: 1.25rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.359);
-    border-left: 1px solid rgba(139, 139, 139, 0.19);
-    color: white;
-    outline: none;
-}
-input[type="text"]:active 
-{
-    border: none;
-    background-color: transparent;
+  }
+  label {
+    margin: .35rem 0.35rem .15rem 0;
+  }
+  input {
+    width: 200px;
+  }
+  .inputArea
+  {
+    width: 180px;
+    padding: 0.85rem;
+    margin: 0;
+    padding: 0.25rem;
+  }
 }
 
-.sendBtn
-{
-    padding: .85rem 2.5rem;
-    font-size: 1.15rem;
-    background: linear-gradient(180deg, rgba(210, 210, 210, 0.14) 0%, rgba(217, 217, 217, 0.08) 100%);
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.359);
-    margin: 1rem 0;
-    cursor: pointer;
-    color: white;
-}
-
-.socialLinks
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .85rem 0;
-}
-
-.socialLinks div 
-{
-    margin:0 1.25rem;
-}
-
-.socialLinks div svg
-{
-    width: 40px;
-    transition: all .5s ease;
-    cursor: pointer;
-}
-.socialLinks div svg:hover 
-{
-    transform: translateY(5px   );
-}
-
-@media screen and (max-width:427px) {
-    #contactPage {
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
-    .contactForm{
-        padding: 0;
-    }
-    .contactForm form div 
-    {
-        margin: 1.25rem;
-    }
-    label {
-        margin: 1rem;
-    }
-    input 
-    {
-        width: 200px;
-    }
-}
-
-@media screen and (min-width:426px) and (max-width:769px){
-    input{
-        width: 310px;
-    }
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  input {
+    width: 310px;
+  }
+  .inputArea 
+  {
+    width: 310px;
+  }
 }

@@ -354,80 +354,80 @@ export const ImgCompo = [
 
     {
         image : encodeURI('artwork/coupleSleep.jpg')
-        ,id:24
+        ,id:23
     },
     {
         image : encodeURI('artwork/coupleRomance.jpg')
-        ,id:25
+        ,id:24
     },
     {
         image : encodeURI('artwork/death.jpg')
-        ,id:26
+        ,id:25
     },
        {
         image : encodeURI('artwork/spyGob.jpg')
-        ,id:27
+        ,id:26
     },
     {
         image : encodeURI('artwork/Vendor.jpg')
-        ,id:28
+        ,id:27
     },
     {
         image : encodeURI('artwork/venomArt.jpg')
-        ,id:29
+        ,id:28
     },
     {
         image : encodeURI('artwork/Zombieart.jpg')
-        ,id:30
+        ,id:29
     },
     {
         image : encodeURI('artwork/ripArt.jpg')
-        ,id:31
+        ,id:30
     },
     {
         image : encodeURI('artwork/fArt.jpg')
-        ,id:32
+        ,id:31
     },
     {
         image : encodeURI('artwork/flower.jpg')
-        ,id:33
+        ,id:32
     },
 
     {
         image : encodeURI('artwork/hairArt.jpg')
-        ,id:34
+        ,id:33
     },
     {
         image : encodeURI('artwork/hands.jpg')
-        ,id:35
+        ,id:34
     },
     {
         image : encodeURI('artwork/hugart.jpg')
-        ,id:36
+        ,id:35
     },
     {
         image : encodeURI('artwork/kissart.jpg')
-        ,id:37
+        ,id:36
     },
     {
         image : encodeURI('artwork/lizard.jpg')
-        ,id:38
+        ,id:37
     },
     {
         image : encodeURI('artwork/nobithaSuzuka.jpg')
-        ,id:39
+        ,id:38
     },
       {
         image : encodeURI('artwork/hanuman.jpg')
-        ,id:40
+        ,id:39
     },
       {
         image : encodeURI('artwork/scary.jpg')
-        ,id:41
+        ,id:40
     },
       {
         image : encodeURI('artwork/solo.jpg')
-        ,id:42
+        ,id:41
     },
 
 ]
