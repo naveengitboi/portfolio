@@ -133,7 +133,7 @@ export const ImgCompo = [
         ,id:33
     },
     {
-        image : './photography/standingPic.png'
+        image : './photography/standingPic.jpg'
         ,id:34
     },
     {

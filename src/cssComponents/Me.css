@@ -27,6 +27,41 @@
 #quote {
     font-family: 'Explora', cursive;
 }
+
+.technicalInfoDiv
+{
+    font-family: 'Red Rose', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.techH1
+{
+    text-transform: uppercase;
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+.iconsDiv h1
+{
+    text-align: left;
+    margin: 1rem 5rem;
+}
+.subIconDiv
+{
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.111);
+    padding: 2rem 2rem 3rem ;
+}
+.icons
+{
+    font-size: 55px;
+    margin: 1.25rem ;
+    transition: all .25s ease;
+}
+.icons:hover 
+{
+    transform: scale(1.15);
+}
 @media screen and (max-width:426px) {
     .page{
         height: calc(100% );
@@ -39,6 +74,14 @@
     .meImage img{
         width: 100%;
     }
+        .iconsDiv h1 {
+            text-align: left;
+            margin: 1rem;
+        }
+        .icons {
+            font-size: 30px;
+            margin: 1rem;
+        }
     
 }
 
@@ -46,4 +89,8 @@
     .meImage img {
         max-width: 400px;
     }
+        .icons {
+            font-size: 40px;
+            margin: 1rem;
+        }
 }

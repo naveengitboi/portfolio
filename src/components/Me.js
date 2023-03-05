@@ -7,6 +7,17 @@ import { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+
+import {FaHtml5, FaJs,FaCss3Alt, FaBootstrap, FaFigma, FaReact, FaNodeJs, FaPython} from 'react-icons/fa'
+
+import {DiMongodb, DiPhotoshop, DiIllustrator} from 'react-icons/di'
+
+import {SiExpress, SiPostman, SiC, SiTypescript, SiDjango, SiFramer} from 'react-icons/si'
+
+import {BsCodeSlash} from 'react-icons/bs'
+
+import {HiPhotograph} from 'react-icons/hi'
+import {MdDraw} from 'react-icons/md'
 function Me() {
   const [quote, setQuote] = useState("Is that a DREAM or WISH?");
   const [name, setName] = useState("J Naveen");
@@ -58,6 +69,48 @@ function Me() {
         </div>
         <div className="meImage">
           <LazyLoadImage effect="blur" src={meImgage} alt="" />
+        </div>
+      </div>
+
+      <div className="technicalInfoDiv">
+        <h1 className="techH1">What I know</h1>
+        <div className="iconsDiv">
+         <div className="subIconDiv">
+          <h1>Web Dev:-</h1>
+           <FaHtml5 className="icons" />
+          <FaCss3Alt className="icons" />
+          <FaJs className="icons" />
+          <FaBootstrap className="icons" />
+          <FaReact className="icons" />
+          <FaNodeJs className="icons" />
+          <SiExpress className="icons" />
+          <DiMongodb className="icons" />
+          <SiPostman className="icons" />
+         </div>
+
+         <div className="subIconDiv">
+            <h1>CP</h1>
+            <FaPython className='icons'/>
+            <SiC className='icons'/>
+            <FaJs className='icons'/>
+         </div>
+
+         <div className="subIconDiv">
+            <h1>Currently Learning</h1>
+            <SiTypescript className='icons'/>
+            <SiDjango className='icons'/>
+            <BsCodeSlash className='icons'/>
+         </div>
+
+         <div className="subIconDiv">
+            <h1>Other Skills</h1>
+            <DiPhotoshop className='icons'/>
+            <DiIllustrator className='icons'/>
+            <SiFramer className='icons'/>
+             <FaFigma className="icons" />
+             <HiPhotograph className="icons" />
+             <MdDraw className="icons" />
+         </div>
         </div>
       </div>
     </div>
