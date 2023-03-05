@@ -351,10 +351,7 @@ export const ImgCompo = [
         image : encodeURI('artwork/girlWithWings.jpg')
         ,id:22
     },
-    {
-        image : encodeURI('artwork/bestGhosts.jpg')
-        ,id:23
-    },
+
     {
         image : encodeURI('artwork/coupleSleep.jpg')
         ,id:24

@@ -61,6 +61,8 @@
 .icons:hover 
 {
     transform: scale(1.15);
+    color: rgb(217, 0, 255);
+    box-shadow: 1px 1px 100px rgb(217, 0, 255);
 }
 @media screen and (max-width:426px) {
     .page{

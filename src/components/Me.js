@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
-import {FaHtml5, FaJs,FaCss3Alt, FaBootstrap, FaFigma, FaReact, FaNodeJs, FaPython} from 'react-icons/fa'
+import {FaHtml5, FaJs,FaCss3Alt, FaBootstrap, FaFigma, FaReact, FaNodeJs, FaPython, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 
 import {DiMongodb, DiPhotoshop, DiIllustrator} from 'react-icons/di'
 
@@ -110,6 +110,15 @@ function Me() {
              <FaFigma className="icons" />
              <HiPhotograph className="icons" />
              <MdDraw className="icons" />
+         </div>
+
+         <div className="subIconDiv">
+            <h1>Links</h1>
+            <a href="https://github.com/naveengitboi" target={"_blank"} ><FaGithub className='icons'/></a>
+            <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target={"_blank"} ><FaLinkedin className='icons'/></a>
+            <a href="https://twitter.com/navetwets" target={"_blank"} ><FaTwitter className='icons'/></a>
+            
+            
          </div>
         </div>
       </div>
