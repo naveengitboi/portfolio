@@ -48,7 +48,7 @@ function Me() {
 
   useEffect(() => {
     fetchingApi();
-  }, []);
+  });
 
   return (
     <div className="mePage">
@@ -114,9 +114,9 @@ function Me() {
 
          <div className="subIconDiv">
             <h1>Links</h1>
-            <a href="https://github.com/naveengitboi" target={"_blank"} ><FaGithub className='icons'/></a>
-            <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target={"_blank"} ><FaLinkedin className='icons'/></a>
-            <a href="https://twitter.com/navetwets" target={"_blank"} ><FaTwitter className='icons'/></a>
+            <a href="https://github.com/naveengitboi" target={"_blank"} rel='noreferrer' ><FaGithub className='icons'/></a>
+            <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target={"_blank"} rel='noreferrer'  ><FaLinkedin className='icons'/></a>
+            <a href="https://twitter.com/navetwets" target={"_blank"} rel='noreferrer' ><FaTwitter className='icons'/></a>
             
             
          </div>

@@ -77,11 +77,11 @@ function Contact(){
 
                 <div className="socialLinks">
                     <div className="linkedIn">
-                        <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target='_blank'><FaLinkedin className='svg' /></a>
+                        <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target='_blank' rel='noreferrer' ><FaLinkedin className='svg' /></a>
                     </div>
 
                     <div className="twitter">
-                       <a href="https://twitter.com/navetwets" target="_blank"><FaTwitter/></a>
+                       <a href="https://twitter.com/navetwets" target="_blank" rel='noreferrer' ><FaTwitter/></a>
 
                     </div>
                 </div>

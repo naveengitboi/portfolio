@@ -4,7 +4,6 @@ import photographyImg from '../bgImages/photgraphy combined png.png'
 import photoshopImg from '../bgImages/ps edited all.png'
 import artworkImg from '../bgImages/arts combined edit.png'
 import { motion } from "framer-motion";
-import { pageAnimation } from "./Home";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 export const bigH1 = {
