@@ -25,7 +25,8 @@ function Photography(){
             {
                 selectedId && 
                 <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration: 0.25}} exit={{scale:0}} className="showImage">
-                <img src= {( '/' + ImgCompo[0][selectedId-1].image)}  alt="clicked by naveen" />
+                    (// eslint-disable-next-line )
+                <img src= {( '/' + ImgCompo[0][selectedId-1].image)}  alt={`image`} />
                 <div className="closeBtn" onClick={()=> setSelectedId(null)}>
                     <div className="leftTilt"> <div className="rightTilt"></div></div>
                    
