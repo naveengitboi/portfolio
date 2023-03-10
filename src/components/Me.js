@@ -89,7 +89,7 @@ function Me() {
          </div>
 
          <div className="subIconDiv">
-            <h1>CP</h1>
+            <h1>Programming skills</h1>
             <FaPython className='icons'/>
             <SiC className='icons'/>
             <FaJs className='icons'/>
