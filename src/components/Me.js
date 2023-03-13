@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
-import {FaHtml5, FaJs,FaCss3Alt, FaBootstrap, FaFigma, FaReact, FaNodeJs, FaPython, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
+import {FaHtml5, FaJs,FaCss3Alt, FaBootstrap, FaFigma, FaReact, FaNodeJs, FaPython, FaGithub, FaLinkedin, FaTwitter, FaDeviantart} from 'react-icons/fa'
 
 import {DiMongodb, DiPhotoshop, DiIllustrator} from 'react-icons/di'
 
@@ -48,7 +48,7 @@ function Me() {
 
   useEffect(() => {
     fetchingApi();
-  });
+  },[]);
 
   return (
     <div className="mePage">
@@ -117,8 +117,7 @@ function Me() {
             <a href="https://github.com/naveengitboi" target={"_blank"} rel='noreferrer' ><FaGithub className='icons'/></a>
             <a href="https://www.linkedin.com/in/naveen-jangiti-1a1b86235/" target={"_blank"} rel='noreferrer'  ><FaLinkedin className='icons'/></a>
             <a href="https://twitter.com/navetwets" target={"_blank"} rel='noreferrer' ><FaTwitter className='icons'/></a>
-            
-            
+            <a href="https://twitter.com/navetwets" target={"_blank"} rel='noreferrer' ><FaDeviantart className='icons'/></a>
          </div>
         </div>
       </div>

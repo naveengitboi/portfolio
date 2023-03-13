@@ -51,6 +51,15 @@ function Project(props){
                 link = "https://naveengitboi.github.io/BackStageTalksClone/backStageTalk.html"
                 />
              </div>
+             <div className="projectContainer">
+                <ProjectDetails
+                img = {red}
+                name="Weather API"
+                projectDetail = "This is the self made learning project."
+                link = "https://63b1c0209516620008712222--dulcet-kelpie-4aa86c.netlify.app/"
+                />
+
+             </div>
             
             <OtherProjects/>
         </>
