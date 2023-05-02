@@ -13,7 +13,6 @@ function Artwork(){
                     return(
                         <div  onClick={()=>setSelectedId(item.id)} 
                         layoutId={item.id} key={item.id} className="image">
-                            (// eslint-disable-next-line) 
                             <LazyLoadImage effect="blur" width={'100%'} height='100%' key={index} src={('/'+item.image)} alt={`image`} />
                         </div>
                     )
