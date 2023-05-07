@@ -9,7 +9,7 @@ const Photoshop = ()=> {
     return(
         <>
         <div className="redirectLink">
-             <a href="https://graphicdesignerau.netlify.app/">VISIT PHOTOSHOP PORTFOLIO</a>
+             <a href="https://graphicdesignerau.netlify.app/">VISIT GRAPHIC DESIGN PORTFOLIO</a>
         </div>
         <div className="imageContainers">
             
