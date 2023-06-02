@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "../cssComponents/Contact.css";
 import { bigH1 } from "./About";
 import { motion } from "framer-motion";
+import resume  from '../meImg/Resume.pdf'
 // import emailjs from '@emailjs/browser'
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 function Contact() {
   const [click, setClick] = useState("Get In Touch");
   const [name, setName] = useState();
@@ -132,14 +133,16 @@ function Contact() {
               <FaLinkedin className="svg" />
             </a>
           </div>
-
-          <div className="twitter">
+          <div className="pdf">
+            <a href={resume} target="_blank" rel="noreferrer" >Resume <FaDownload  /></a>
+          </div>
+           <div className="github">
             <a
-              href="https://twitter.com/navetwets"
+              href="https://github.com/naveengitboi"
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter />
+              <FaGithub />
             </a>
           </div>
         </div>

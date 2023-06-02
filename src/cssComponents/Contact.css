@@ -78,7 +78,11 @@ input[type="text"]:active {
   transition: all 0.5s ease;
   cursor: pointer;
 }
-
+.socialLinks .pdf a 
+{
+  font-size: 30px;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 427px) {
   #contactPage {
     width: 100vw;
