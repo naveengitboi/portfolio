@@ -21,10 +21,18 @@ function App() {
     <div className="App">
       <AnimatedCursor
         color='255,255,255'
-        trailingSpeed={1}
-        innerSize = {30}
+        trailingSpeed={3}
+        outerSize = {36}
+        innerSize = {20}
+        innerScale ={0.8      }
+        outerScale={1}
         innerStyle = {{
-          backgroundColor: 'white'
+          backgroundColor: 'white',
+          
+        }}
+        outerStyle={{
+          border: '2px solid white',
+          backgroundColor:'transperant'
         }}
       />
       <Navbar />

@@ -1,3 +1,4 @@
+import {Parallax} from 'react-parallax'
 import {React, lazy, Suspense} from "react";
 import '../cssComponents/Home.css'
 import {motion} from 'framer-motion'
@@ -5,6 +6,7 @@ import { smallH1, smallH1Container } from "./About";
 const Contact = lazy(()=>import('./Contact'))
 const Project = lazy(()=> import('./Project'))
 const About = lazy(()=> import('./About'))
+
 export const pageAnimation ={
     hidden:{ opacity:0},
     show:{ opacity:1,
@@ -16,8 +18,10 @@ export const ChildrenElements = {
 }
 function Home(){
     return(
-        <div>
+        
+            <div>
         <Suspense fallback='Loading...'>
+            <Parallax strength={200} bgImage='./bg/night.jpg' >
             <motion.div className="page" id="homePage"
             variants={pageAnimation}
                 initial="hidden"
@@ -33,12 +37,14 @@ function Home(){
                     <motion.h1  variants={smallH1}>student Nit calicut</motion.h1>
                 </motion.div>
             </motion.div>
+            </Parallax>
 
             <About/>
             <Project/>
             <Contact/>
         </Suspense>
         </div>
+
     )
 }
 

@@ -7,7 +7,12 @@
     text-transform: uppercase;
     margin: 0 0 5rem;
 }
-
+#homePage
+{
+    /* background: url('/public/bg/earth.jpg'); */
+    background-position: bottom;
+    background-size: cover;
+}
 @media screen and (max-width:427px) {
     #homePage {
         height: 100vh;
